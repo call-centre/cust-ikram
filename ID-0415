@@ -7,7 +7,7 @@
 <script language="javascript">window.location="https://youtu.be/ZL7q3SQWsPE?si=W6gKX9zPuWTw-eSK";</script></head>
 </html>
 
-#EXTM3U billed-msg="# 15 Nov 2024 #", url-tvg="https://raw.githubusercontent.com/thefirefox12537/streams/master/epg/guide.xml.gz" m3uautoload=1 cache=500 deinterlace=1 refresh="6"
+#EXTM3U billed-msg="# Expired 15 Nov 2024 #", url-tvg="https://raw.githubusercontent.com/thefirefox12537/streams/master/epg/guide.xml.gz" m3uautoload=1 cache=500 deinterlace=1 refresh="6"
 
 ###################
 ####### EPG #######
@@ -1279,16 +1279,6 @@ https://cdnjkt2.transvision.co.id:1001/live/master/5/4028c6858119921801816b5359d
 ````````CHANNEL | OLAH RAGA LOKAL🇮🇩````````
 #EXTINF:-1 group-logo="https://i.ibb.co/RyC0Q2J/Logo-TV-Group.png"
 
-#EXTINF:-1 group-title="CHANNEL | OLAH RAGA LOKAL🇮🇩" tvg-id="sctv.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/SCTV_Logo.svg/640px-SCTV_Logo.svg.png",SCTV FHD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 
-#EXTVLCOPT:http-referrer=https://thedream.biz.id/play.php
-https://thedream.biz.id/live/esceteve.m3u8
-
-#EXTINF:-1 group-title="CHANNEL | OLAH RAGA LOKAL🇮🇩" tvg-id="sctv.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/SCTV_Logo.svg/640px-SCTV_Logo.svg.png",SCTV HD
-#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; U; Android 4.2.2; he-il; NEO-X5-116A Build/JDQ39) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Safari/534.30
-https://play.gachor99.my.id:443/hometv_lite2/h6NwHhGE43/9
-
 #EXTINF:-1 group-title="CHANNEL | OLAH RAGA LOKAL🇮🇩" tvg-id="ochannel.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Moji_blue.svg/640px-Moji_blue.svg.png",Moji FHD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 
 #EXTVLCOPT:http-referrer=https://thedream.biz.id/play.php
@@ -1299,17 +1289,9 @@ https://thedream.biz.id/live/ochannel.m3u8
 #EXTVLCOPT:http-referrer=https://thedream.biz.id/play.php
 https://thedream.biz.id/live/endosiar.m3u8
 
-#EXTINF:-1 group-title="CHANNEL | OLAH RAGA LOKAL🇮🇩" tvg-id="ochannel.id" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Moji_blue.svg/640px-Moji_blue.svg.png",Moji HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 
-http://103.155.250.139:25461/v3/Ub5dHa4TJp/4
-
 #EXTINF:-1 tvg-id="Indosiar.id"  tvg-logo="https://raw.githubusercontent.com/uploadplaylist/Lego/main/INDOSIAR.jpeg" group-title="CHANNEL | OLAH RAGA LOKAL🇮🇩",INDOSIAR SPORT
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 
 http://iptvtree.net:8080/e891d265/89d742c3/162138
-
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/uploadplaylist/Lego/main/MOJI.webp" group-title="CHANNEL | OLAH RAGA LOKAL🇮🇩", MOJI
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; CrOS x86_64 14541.0.0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
-https://s.id/mojiHD_shareext-xs
  
 #EXTINF:-1 tvg-id="Soccer Channel HD - [Channel 420].id" tvg-name="Soccer Channel" tvg-logo="https://raw.githubusercontent.com/uploadplaylist/Lego/main/SOCCER.jpeg" group-title="CHANNEL | OLAH RAGA LOKAL🇮🇩", SOCCER CHANNEL
 #EXTVLCOPT:http-user-agent=ExoPlayerLib
@@ -1370,17 +1352,22 @@ http://op-group1-swiftservehd-1.dens.tv/h/h204/02.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0 
 http://op-group1-swiftservehd-1.dens.tv/h/h238/index.m3u8
 
-#KODIPROP:inputstream.adaptive.manifest_type=Dash
+#KODIPROP:inputstreamaddon=inputstream.adaptive
+#KODIPROP:inputstream.adaptive.manifest_type=dash
 #KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"5KI1mwVWM5nx2a385kFySg", "kid":"aWRrdV8xMDAwMDAwMDAwMA" } ], "type":"temporary" }
+#KODIPROP:inputstream.adaptive.license_key=f7dcab829caeffb612740a1c51f0478d:b2466bb519b759ae3de1818988532453
+https://arlocallivechannelsdash.lcdn.clarotv.com.ar/Content/DASH_DASH_FK/Live/channel(TYC_SPORTS)/master.mpd
+
 #EXTINF:-1 tvg-id="" tvg-logo="https://thumbor.prod.vidiocdn.com/Bmv3iTkuSqCj3J2swo0flndH8x8=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6299/bein-1-60c673.jpg" group-title="CHANNEL | OLAH RAGA LOKAL🇮🇩",Bein Sports Indo 1
-https://okegas.leonalmesi.workers.dev/dassdvr/133/beib1/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=69646b755f3130303030303030303030&key=e4a2359b05563399f1d9adfce641724a
+https://cdn08jtedge.indihometv.com/dassdvr/133/beib1/manifest.mpd
   
-#KODIPROP:inputstream.adaptive.manifest_type=Dash
-#KODIPROP:inputstream.adaptive.license_type=org.w3.clearkey
-#KODIPROP:inputstream.adaptive.license_key={ "keys":[ { "kty":"oct", "k":"5KI1mwVWM5nx2a385kFySg", "kid":"aWRrdV8xMDAwMDAwMDAwMA" } ], "type":"temporary" }
 #EXTINF:-1 tvg-id="" tvg-logo="https://thumbor.prod.vidiocdn.com/XW3QKDaZSyn3iYKafLb4fhbcTwg=/filters:quality(70)/vidio-web-prod-livestreaming/uploads/livestreaming/image/6317/bein-3-e1add8.jpg" group-title="CHANNEL | OLAH RAGA LOKAL🇮🇩",Bein Sports Indo 3
-https://okegas.leonalmesi.workers.dev/dassdvr/133/beib2/manifest.mpd
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://vercel-php-clearkey-hex-base64-json.vercel.app/api/results.php?keyid=69646b755f3130303030303030303030&key=e4a2359b05563399f1d9adfce641724a
+https://cdn08jtedge.indihometv.com/dassdvr/133/beib2/manifest.mpd
+
 
 
 ````````7. CHANNEL | OLAH RAGA DUNIA````````
@@ -1420,14 +1407,6 @@ https://tvnid-stream.leonalmesi.workers.dev/Sky_Sports_Main_Event/index.m3u8
 #EXTINF:-1 group-title="CHANNEL | OLAH RAGA DUNIA" tvg-logo="https://www.cable.co.uk/images/content/sky_sports_branded_landscape_min.jpg",Sky Football
 https://tvnid-stream.leonalmesi.workers.dev/Sky_Sports_Football_Live_TV/index.m3u8
 
-#EXTINF:-1 tvg-id="SportTV1.pt" tvg-name="Sport TV1" tvg-logo="https://dl.dropboxusercontent.com/s/hlxxmcm3dcxd2hy/sporttv.png" group-title="CHANNEL | OLAH RAGA DUNIA",Sport TV 6 | PT
-#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 13) ExoPlayerLib/2.13.2
-http://103.127.96.91:25461/hometv@91/Wdk8VzyYTG/106
-
-#EXTINF:-1 tvg-id="" tvg-name="IT | Sky Sport F1 FHD" tvg-logo="http://origintvsolutions.co.uk/Logos/Logos/skysportf1hd.png" group-title="CHANNEL | OLAH RAGA DUNIA",IT | Sky Sport F1 FHD
-#EXTVLCOPT:http-user-agent=OTT Navigator/hometv.finale (Linux;Android 13) ExoPlayerLib/2.13.2
-http://103.127.209.247:8080/247@v2old/M0js5Y5vVA/5802
-
 #EXTINF:-1 group-title="CHANNEL | OLAH RAGA DUNIA" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/2015_Fox_Sports_1_logo.svg/1200px-2015_Fox_Sports_1_logo.svg.png",Fox Sports 1
 https://tvnid-stream.leonalmesi.workers.dev/Fox_Sports_1_Live_TV/index.m3u8
 
@@ -1436,7 +1415,6 @@ https://tvnid-stream.leonalmesi.workers.dev/Fox_Sports_2_Live_TV/index.m3u8
 
 #EXTINF:-1 group-title="CHANNEL | OLAH RAGA DUNIA" tvg-logo="https://prod.ctassets.virginmedia.com/uploads/Premier_Sports_full_TV_Stream_439ab52b88.jpg",Premier Sports 1
 https://tvnid-stream.leonalmesi.workers.dev/Premier_Sports_1/index.m3u8
-
 
 #EXTINF:-1 group-title="CHANNEL | OLAH RAGA DUNIA" tvg-logo="https://prod.ctassets.virginmedia.com/uploads/Premier_Sports_full_TV_Stream_439ab52b88.jpg",Premier Sports 2
 https://tvnid-stream.leonalmesi.workers.dev/Premier_Sports_2/index.m3u8
@@ -1905,14 +1883,5 @@ https://shls-masr-ak.akamaized.net/out/v1/c08681f81775496ab4afa2bac7ae7638/index
 
 #EXTINF:-1 group-title="CHANNEL | LUAR NEGERI" tvg-id="mbc5.ae" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/81/Mbc1logo.png",MBC 5
 https://shls-mbc5-prod-dub.shahid.net/out/v1/2720564b6a4641658fdfb6884b160da2/index.m3u8
-
-########################
-########9. CHANNEL | DAERAH########
-########################
-
-=====================================================================
-```````` 9. CHANNEL | DAERAH ````````
-#EXTINF:-1 group-logo="https://i.ibb.co/RyC0Q2J/Logo-TV-Group.png"
-
 
 
